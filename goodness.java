@@ -30,7 +30,7 @@ public class goodness {
 	      while (myReader.hasNextLine()&&count<rows) {
 	        String data = myReader.nextLine();
 	        String[] splitData = data.split("\\s+");
-	        //for(int i=0;i<streetsAndCars;i++) {
+	        
 	        for(int j=0;j<splitData.length;j++) {
 	        	goodness[count][j] = splitData[j];
 	        	System.out.print(goodness[count][j]);
@@ -52,7 +52,7 @@ public class goodness {
 	      for(int i=0;i<rows-1;i++) {
 	    	  for(int j=0;j<cols-1;j++) {
 	    		  colsquare=j+1;
-	    		  //myMethod(lshape,check,lcount,colsegs);
+	    		  
 	    		  while(lshape[i][colsquare]==1) {
 	    			  for(int k=0;k<colsegs*2;k++) {
 	    				  if(k+i<rows) {
@@ -82,7 +82,5 @@ public class goodness {
 		        e.printStackTrace();
 		      }
 	}
-	static void myMethod(int[][] lshape,boolean check,int lcount,int colsegs) {
-	System.out.println("I just got executed!");
-	  }
+
 }
