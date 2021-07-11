@@ -1,1 +1,1 @@
-These are all my successful solutions from Google's Kickstart competitions
+These are all my solutions from Google's Kickstart competitions
